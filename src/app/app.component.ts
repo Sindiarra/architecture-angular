@@ -9,4 +9,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'architectureAngular';
+  isAuthenticated: boolean = false;
+
+  constructor() {}
+
+  ngOnInit() {}
 }
+
